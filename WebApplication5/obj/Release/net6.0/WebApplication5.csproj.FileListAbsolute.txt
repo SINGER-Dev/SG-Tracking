@@ -1,0 +1,279 @@
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\appsettings.Development.json
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\appsettings.json
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\WebApplication5.exe
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\WebApplication5.deps.json
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\WebApplication5.runtimeconfig.json
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\WebApplication5.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\WebApplication5.pdb
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Azure.Core.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Azure.Identity.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Identity.Client.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.OpenApi.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Newtonsoft.Json.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.Drawing.Common.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.Memory.Data.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.Runtime.Caching.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.Security.Permissions.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.Text.Encodings.Web.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.Text.Json.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\System.Windows.Extensions.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.csproj.AssemblyReference.cache
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.AssemblyInfoInputs.cache
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.AssemblyInfo.cs
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.csproj.CoreCompileInputs.cache
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.WebApplication5.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.build.WebApplication5.props
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication5.props
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication5.props
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\scopedcss\bundle\WebApplication5.styles.css
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.csproj.CopyComplete
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\refint\WebApplication5.dll
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.pdb
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\WebApplication5.genruntimeconfig.cache
+C:\Users\rattanapongt\source\repos\WebApplication5\WebApplication5\obj\Release\net6.0\ref\WebApplication5.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\appsettings.Development.json
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\appsettings.json
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\WebApplication5.exe
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\WebApplication5.deps.json
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\WebApplication5.runtimeconfig.json
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\WebApplication5.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\WebApplication5.pdb
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Azure.Core.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Azure.Identity.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Primitives.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Identity.Client.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.OpenApi.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.SqlServer.Server.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Newtonsoft.Json.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.Drawing.Common.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.Memory.Data.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.Runtime.Caching.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.Security.Permissions.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.Text.Encodings.Web.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.Text.Json.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\System.Windows.Extensions.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\project\ApiKlaiKlai\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.csproj.AssemblyReference.cache
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.AssemblyInfoInputs.cache
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.AssemblyInfo.cs
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.csproj.CoreCompileInputs.cache
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.MvcApplicationPartsAssemblyInfo.cs
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.MvcApplicationPartsAssemblyInfo.cache
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.WebApplication5.Microsoft.AspNetCore.StaticWebAssets.props
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.build.WebApplication5.props
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication5.props
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication5.props
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\staticwebassets.pack.json
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\staticwebassets.build.json
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\staticwebassets.development.json
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\scopedcss\bundle\WebApplication5.styles.css
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.csproj.CopyComplete
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.dll
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\refint\WebApplication5.dll
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.pdb
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\WebApplication5.genruntimeconfig.cache
+D:\project\ApiKlaiKlai\WebApplication5\obj\Release\net6.0\ref\WebApplication5.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\appsettings.Development.json
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\appsettings.json
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Connected Services\AuthorizationService\ConnectedService.json
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\WebApplication5.exe
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\WebApplication5.deps.json
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\WebApplication5.runtimeconfig.json
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\WebApplication5.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\WebApplication5.pdb
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Azure.Core.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Azure.Identity.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Extensions.Primitives.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Identity.Client.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.IdentityModel.Xml.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.OpenApi.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.SqlServer.Server.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Newtonsoft.Json.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Drawing.Common.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Memory.Data.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Private.ServiceModel.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Runtime.Caching.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Security.Cryptography.Xml.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Security.Permissions.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.ServiceModel.Duplex.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.ServiceModel.Federation.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.ServiceModel.Http.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.ServiceModel.NetTcp.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.ServiceModel.Primitives.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.ServiceModel.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.ServiceModel.Security.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Text.Encodings.Web.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Text.Json.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\System.Windows.Extensions.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\cs\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\de\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\es\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\fr\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\it\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\ja\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\ko\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\pl\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\pt-BR\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\ru\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\tr\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\zh-Hans\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\zh-Hant\System.Private.ServiceModel.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\cs\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\de\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\es\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\fr\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\it\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\ja\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\ko\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\pl\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\pt-BR\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\ru\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\tr\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.csproj.AssemblyReference.cache
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.AssemblyInfoInputs.cache
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.AssemblyInfo.cs
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.csproj.CoreCompileInputs.cache
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.MvcApplicationPartsAssemblyInfo.cs
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.MvcApplicationPartsAssemblyInfo.cache
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.WebApplication5.Microsoft.AspNetCore.StaticWebAssets.props
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.build.WebApplication5.props
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication5.props
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication5.props
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\staticwebassets.pack.json
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\staticwebassets.build.json
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\staticwebassets.development.json
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\scopedcss\bundle\WebApplication5.styles.css
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.csproj.CopyComplete
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\refint\WebApplication5.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.pdb
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\WebApplication5.genruntimeconfig.cache
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\obj\Release\net6.0\ref\WebApplication5.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\nlog.config
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\NLog.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\SumoLogic.Logging.Common.dll
+D:\project\ApiKlaiKlai (Login and Contact)\WebApplication5\bin\Release\net6.0\SumoLogic.Logging.NLog.dll
