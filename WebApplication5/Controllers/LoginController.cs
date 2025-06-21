@@ -76,7 +76,16 @@ namespace WebApplication5.Controllers
 			//ชื่อตัวแปรในสโตร , ค่าที่เก็บสโตร
 			sqlCommand.Parameters.AddWithValue("EMP_CODE", User.user_id);
 			sqlCommand.Parameters.AddWithValue("Password", User.password);
-			sqlCommand.Parameters.AddWithValue("ApplicationID", ApplicationID);
+
+			if(!string.IsNullOrWhiteSpace(User.applicationID))
+			{
+                sqlCommand.Parameters.AddWithValue("ApplicationID", User.applicationID);
+            }
+			else
+			{
+                sqlCommand.Parameters.AddWithValue("ApplicationID", ApplicationID);
+            }
+				
 			dtAdapter3.SelectCommand = sqlCommand;
 			
 			dtAdapter3.Fill(dt3);

@@ -82,30 +82,30 @@ namespace WebApplication5.Controllers
 				ValidateCenter ValidateCenter = new ValidateCenter();
 				try
 				{
-					if(SearchEmployee.employee_id.ToString().Trim() != "")
-					{
-						bool chk_employee = true;
-						List<string> data_val = new List<string>();
+					//if(SearchEmployee.employee_id.ToString().Trim() != "")
+					//{
+					//	bool chk_employee = true;
+					//	List<string> data_val = new List<string>();
 						
-						bool chkCenterEmployee = ValidateCenter.CHK_USER_TRACKING(SearchEmployee.employee_id.ToString());
-						if (!chkCenterEmployee)
-						{
-							chk_employee = false;
-							data_val.Add(SearchEmployee.employee_id.ToString());
-						}
+					//	bool chkCenterEmployee = ValidateCenter.CHK_USER_TRACKING(SearchEmployee.employee_id.ToString());
+					//	if (!chkCenterEmployee)
+					//	{
+					//		chk_employee = false;
+					//		data_val.Add(SearchEmployee.employee_id.ToString());
+					//	}
 
-						if (!chk_employee)
-						{
-							Error.StatusCode = "4042";
-							Error.Message = "Employee Not Found.";
-							jsonReturn = JsonConvert.SerializeObject(Error);
+					//	if (!chk_employee)
+					//	{
+					//		Error.StatusCode = "4042";
+					//		Error.Message = "Employee Not Found.";
+					//		jsonReturn = JsonConvert.SerializeObject(Error);
 
-							var jsonParsed = JObject.Parse(jsonReturn);
-							jsonParsed.Properties().Where(attr => attr.Name == "Payload").First().Remove();
-							jsonReturn = jsonParsed.ToString();
-							return jsonReturn;
-						}
-					}
+					//		var jsonParsed = JObject.Parse(jsonReturn);
+					//		jsonParsed.Properties().Where(attr => attr.Name == "Payload").First().Remove();
+					//		jsonReturn = jsonParsed.ToString();
+					//		return jsonReturn;
+					//	}
+					//}
 
 					string team = "";
 					if (SearchEmployee.team.ToString().Trim() != "")
@@ -143,15 +143,24 @@ namespace WebApplication5.Controllers
 													+ " AND [Auth_UserRoles].[ApplicationID] = @ApplicationID "
 													+ " FOR XML PATH('')), 1, 1, '') as RoleDescription "
 							 + " FROM [SG-AUTHORIZE].[dbo].[Auth_Users] "
-							 + " LEFT JOIN [SG-K2PROD-DB2].[AR_COLLECTION].[DBO].[View_EMPLOYEE_ALL_COMP_ALLSTATUS] T2 ON T2.EMP_CODE = [Auth_Users].EMP_CODE "
-							 + " WHERE T2.[DEG_CODE] <> 'ลาออก' "
+							 + " LEFT JOIN [SG-MASTER].[dbo].[MS_EMPLOYEE_ALL_COMP] T2 ON T2.EMP_CODE = [Auth_Users].EMP_CODE "
+                             + " WHERE T2.[DEG_CODE] <> 'ลาออก' "
 							 + " AND T2.[COMPANY] = @company"
 							 + emp_text
 							 + filter_text
 							 + " ) A WHERE A.RoleDescription IS NOT NULL ORDER BY EMP_NAME_THA ASC";
 					sqlCommand = new SqlCommand(strSQL, connection);
 					sqlCommand.Parameters.AddWithValue("@company", SearchEmployee.company.ToString().Trim());
-					sqlCommand.Parameters.AddWithValue("@ApplicationID", ApplicationID.ToString().Trim());
+
+                    if (!string.IsNullOrWhiteSpace(SearchEmployee.applicationID))
+                    {
+                        sqlCommand.Parameters.AddWithValue("@ApplicationID", SearchEmployee.applicationID.ToString().Trim());
+                    }
+                    else
+                    {
+                        sqlCommand.Parameters.AddWithValue("@ApplicationID", ApplicationID);
+                    }
+
 					sqlCommand.CommandType = CommandType.Text;
 					dtAdapter3.SelectCommand = sqlCommand;
 					DataTable dt2 = new DataTable();
@@ -167,8 +176,10 @@ namespace WebApplication5.Controllers
 						
 						foreach (DataRow row in dt2.Rows)
 						{
-							bool chkCenterEmployee = ValidateCenter.CHK_USER_TRACKING(row["EMP_CODE"].ToString());
-							if (chkCenterEmployee)
+							//bool chkCenterEmployee = ValidateCenter.CHK_USER_TRACKING(row["EMP_CODE"].ToString());
+                            bool chkCenterEmployee = true;
+
+                            if (chkCenterEmployee)
 							{
 								chkCenterEmployee2 = true;
 								List<string> list = new List<string>();

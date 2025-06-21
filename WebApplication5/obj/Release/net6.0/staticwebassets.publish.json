@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "EY0bt/c7cM+nFG6xuHC6JmJ+6SmnnHgKA8gfHgYhfZo=",
+  "Hash": "EaKebN30LCSw/O3Fd7JwgIfKv4ZAGeKGFejjtMmiDVQ=",
   "Source": "WebApplication5",
   "BasePath": "_content/WebApplication5",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

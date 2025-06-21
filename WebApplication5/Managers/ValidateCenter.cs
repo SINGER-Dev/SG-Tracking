@@ -37,6 +37,7 @@ namespace WebApplication5.Managers
 			strConnString = myConnectionString3;
 			connection.ConnectionString = strConnString;
 			connection.Open();
+
 			strSQL = "SELECT [Auth_Users].[UserID] FROM [SG-AUTHORIZE].[dbo].[Auth_UserRoles] LEFT JOIN [SG-AUTHORIZE].[dbo].[Auth_Users] ON [Auth_Users].UserID = [Auth_UserRoles].UserID where [Auth_Users].[EMP_CODE] = @EMP_CODE AND [Auth_UserRoles].ApplicationID = @ApplicationID AND [Auth_UserRoles].Status = 1 AND [Auth_Users].Status = 1";
 
 

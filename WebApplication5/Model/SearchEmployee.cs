@@ -8,7 +8,8 @@ namespace WebApplication5.Model
 		public string? employee_id { get; set; }
 		public string? filter_text { get; set; }
 		public string? team { get; set; }
-	}
+        public string? applicationID { get; set; }
+    }
 
 	public class SearchEmpReturn
 	{
