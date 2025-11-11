@@ -52,6 +52,14 @@ namespace WebApplication5.Controllers
 		{
 			
 			string accessToken = Request.Headers["Authorization"];
+			if (string.IsNullOrEmpty(accessToken))
+			{
+				// Try X-Authorization header
+				if (Request.Headers.ContainsKey("X-Authorization"))
+				{
+					accessToken = Request.Headers["X-Authorization"].FirstOrDefault();
+				}
+			}
 			string contractValue = string.Empty;
 			string track_codeValue = string.Empty;
 			string created_dateValue = string.Empty;

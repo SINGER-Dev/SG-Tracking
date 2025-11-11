@@ -54,6 +54,14 @@ namespace WebApplication5.Controllers
 		public string Main([FromBody] TaskInfoModel TaskInfoModel)
 		{
 			string accessToken = Request.Headers["Authorization"];
+			if (string.IsNullOrEmpty(accessToken))
+			{
+				// Try X-Authorization header
+				if (Request.Headers.ContainsKey("X-Authorization"))
+				{
+					accessToken = Request.Headers["X-Authorization"].FirstOrDefault();
+				}
+			}
 
 			IAuthService expirationChecker = new JWTService();
 			bool isExpired = expirationChecker.IsTokenExpired(accessToken);

@@ -52,6 +52,14 @@ namespace WebApplication5.Controllers
 		{
 			Error Error = new Error();
 			string accessToken = Request.Headers["Authorization"];
+			if (string.IsNullOrEmpty(accessToken))
+			{
+				// Try X-Authorization header
+				if (Request.Headers.ContainsKey("X-Authorization"))
+				{
+					accessToken = Request.Headers["X-Authorization"].FirstOrDefault();
+				}
+			}
 
 			IAuthService expirationChecker = new JWTService();
 			bool isExpired = expirationChecker.IsTokenExpired(accessToken);
@@ -103,15 +111,27 @@ namespace WebApplication5.Controllers
 					string fileExtension = Path.GetExtension(file.FileName);
 
 
-					string logFilePath2 = "logfile.txt";
+					string logFilePath2 = Path.Combine(Directory.GetCurrentDirectory(), "logfile.txt");
 					FileStream fileStream2 = null;
-					fileStream2 = new FileStream(logFilePath2, FileMode.Append);
-
-					using (StreamWriter writer = new StreamWriter(fileStream2, Encoding.UTF8))
+					try
 					{
-						// Write a timestamp and log message
-						string logMessage = $"[{DateTime.Now}] : " + fileExtension.ToLower();
-						writer.WriteLine(logMessage);
+						fileStream2 = new FileStream(logFilePath2, FileMode.Append);
+
+						using (StreamWriter writer = new StreamWriter(fileStream2, Encoding.UTF8))
+						{
+							// Write a timestamp and log message
+							string logMessage = $"[{DateTime.Now}] : " + fileExtension.ToLower();
+							writer.WriteLine(logMessage);
+						}
+					}
+					catch (Exception logEx)
+					{
+						_logger.LogError($"Failed to write to log file {logFilePath2}: {logEx.Message}");
+						// ไม่ throw exception เพราะ log ไม่ใช่ส่วนสำคัญ
+					}
+					finally
+					{
+						fileStream2?.Dispose();
 					}
 
 
@@ -217,10 +237,36 @@ namespace WebApplication5.Controllers
 										sqlCommand.ExecuteScalar();
 										sqlCommand.Parameters.Clear();
 
-										var filePath = Path.Combine("FileUpload", FILE_NAME_RECORD);
-										using (var stream = new FileStream(filePath, FileMode.Create))
+										// แก้ไขการจัดการ file path
+										var uploadDirectory = Path.Combine(Directory.GetCurrentDirectory(), "FileUpload");
+										
+										// สร้าง directory ถ้ายังไม่มี
+										if (!Directory.Exists(uploadDirectory))
 										{
-											await file.CopyToAsync(stream);
+											try
+											{
+												Directory.CreateDirectory(uploadDirectory);
+											}
+											catch (Exception dirEx)
+											{
+												_logger.LogError($"Failed to create directory {uploadDirectory}: {dirEx.Message}");
+												throw new Exception($"Cannot create upload directory: {dirEx.Message}");
+											}
+										}
+
+										var filePath = Path.Combine(uploadDirectory, FILE_NAME_RECORD);
+										
+										try
+										{
+											using (var stream = new FileStream(filePath, FileMode.Create))
+											{
+												await file.CopyToAsync(stream);
+											}
+										}
+										catch (Exception fileEx)
+										{
+											_logger.LogError($"Failed to save file {filePath}: {fileEx.Message}");
+											throw new Exception($"Cannot save uploaded file: {fileEx.Message}");
 										}
 
 										List<UploadFileResponePayload> UpdateReturnMaster = new List<UploadFileResponePayload>();
@@ -252,15 +298,27 @@ namespace WebApplication5.Controllers
 						}
 						else
 						{
-							string logFilePath = "logfile.txt";
+							string logFilePath = Path.Combine(Directory.GetCurrentDirectory(), "logfile.txt");
 							FileStream fileStream = null;
-							fileStream = new FileStream(logFilePath , FileMode.Append); 
-
-							using (StreamWriter writer = new StreamWriter(fileStream , Encoding.UTF8))
+							try
 							{
-								// Write a timestamp and log message
-								string logMessage = $"[{DateTime.Now}] : " + fileExtension.ToLower();
-								writer.WriteLine(logMessage);
+								fileStream = new FileStream(logFilePath, FileMode.Append); 
+
+								using (StreamWriter writer = new StreamWriter(fileStream, Encoding.UTF8))
+								{
+									// Write a timestamp and log message
+									string logMessage = $"[{DateTime.Now}] : " + fileExtension.ToLower();
+									writer.WriteLine(logMessage);
+								}
+							}
+							catch (Exception logEx)
+							{
+								_logger.LogError($"Failed to write to log file {logFilePath}: {logEx.Message}");
+								// ไม่ throw exception เพราะ log ไม่ใช่ส่วนสำคัญ
+							}
+							finally
+							{
+								fileStream?.Dispose();
 							}
 
 
@@ -289,6 +347,9 @@ namespace WebApplication5.Controllers
 				}
 				catch (Exception ex)
 				{
+					_logger.LogError($"UploadFile Error: {ex.Message}");
+					_logger.LogError($"Stack Trace: {ex.StackTrace}");
+					
 					Error error = new Error();
 					error.StatusCode = "500";
 					error.Message = ex.Message;

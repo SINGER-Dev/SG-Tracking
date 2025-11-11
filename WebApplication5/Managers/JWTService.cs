@@ -101,7 +101,24 @@ namespace WebApplication5.Managers
 		{
 			try
 			{
+				// ตรวจสอบว่า accessToken เป็น null หรือ empty
+				if (string.IsNullOrEmpty(accessToken))
+				{
+					return true; // ถ้าไม่มี token ให้ถือว่า expired
+				}
+
+				// ตรวจสอบว่า token มี format ที่ถูกต้อง (Bearer token)
+				if (!accessToken.StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase))
+				{
+					return true; // ถ้า format ไม่ถูกต้องให้ถือว่า expired
+				}
+
 				int spaceIndex = accessToken.IndexOf(' ');
+				if (spaceIndex == -1)
+				{
+					return true; // ถ้าไม่มี space ให้ถือว่า expired
+				}
+
 				accessToken = accessToken.Substring(spaceIndex + 1);
 
 				// Create a token validation parameters object
@@ -132,6 +149,11 @@ namespace WebApplication5.Managers
 			}
 			catch (SecurityTokenException)
 			{
+				return true;
+			}
+			catch (Exception ex)
+			{
+				// Log any other exceptions and return true (expired)
 				return true;
 			}
 		}

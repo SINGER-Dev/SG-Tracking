@@ -46,7 +46,14 @@ namespace WebApplication5.Controllers
 		public string Main([FromBody] MasterRoleParameter MasterRoleParameter)
 		{
 			string accessToken = Request.Headers["Authorization"];
-
+			if (string.IsNullOrEmpty(accessToken))
+			{
+				// Try X-Authorization header
+				if (Request.Headers.ContainsKey("X-Authorization"))
+				{
+					accessToken = Request.Headers["X-Authorization"].FirstOrDefault();
+				}
+			}
 			IAuthService expirationChecker = new JWTService();
 			bool isExpired = expirationChecker.IsTokenExpired(accessToken);
 
@@ -66,7 +73,7 @@ namespace WebApplication5.Controllers
 				strConnString = myConnectionString2;
 				try
 				{
-					connection.ConnectionString = myConnectionString3;
+                    connection.ConnectionString = myConnectionString3;
 					connection.Open();
 
 
@@ -150,7 +157,9 @@ namespace WebApplication5.Controllers
 					error.StatusCode = "500";
 					error.Message = "Internal Server Error.";
 					string json = JsonConvert.SerializeObject(error);
-					var jsonParsed = JObject.Parse(json);
+
+                    _logger.LogError("Error: " + ex.Message + " StackTrace: " + ex.StackTrace);
+                    var jsonParsed = JObject.Parse(json);
 					jsonParsed.Properties().Where(attr => attr.Name == "Payload").First().Remove();
 					json = jsonParsed.ToString();
 					return json;
