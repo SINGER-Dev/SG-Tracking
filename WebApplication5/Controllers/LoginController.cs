@@ -195,26 +195,7 @@ namespace WebApplication5.Controllers
 
 		}
 
-	
-
-
-
-
-		
-
 		#region Private Methods
-		private static JWTContainerModel GetJWTContainerModel(string name, string email)
-		{
-			return new JWTContainerModel()
-			{
-				Claims = new Claim[]
-				{
-					new Claim(ClaimTypes.Name, name),
-					new Claim(ClaimTypes.Email, email)
-				}
-			};
-		}
-
 		private string GetJWTTokenl(string EMP_CODE)
 		{
 			// Secret key used for signing the JWT

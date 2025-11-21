@@ -539,3 +539,4 @@ D:\project\New folder (4)\SG-Tracking\WebApplication5\obj\Debug\net6.0\staticweb
 D:\project\New folder (4)\SG-Tracking\WebApplication5\obj\Debug\net6.0\WebAppli.9EBC9D7D.Up2Date
 D:\project\New folder (4)\SG-Tracking\WebApplication5\obj\Debug\net6.0\WebApplication5.genruntimeconfig.cache
 D:\project\New folder (4)\SG-Tracking\WebApplication5\obj\Debug\net6.0\ref\WebApplication5.dll
+D:\project\SG-Tracking\WebApplication5\bin\Debug\net6.0\web.config
