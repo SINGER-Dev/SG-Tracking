@@ -18,7 +18,7 @@ namespace WebApplication5.Controllers
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: false);
             IConfiguration _configuration = builder.Build();
-            return "ECOMMERCE SERVICE / Ver. 0.01.2025.11.11.001";
+            return "SG TRACKING / Ver. 0.01.2025.11.11.001";
         }
     }
 }
